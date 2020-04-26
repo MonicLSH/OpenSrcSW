@@ -17,6 +17,8 @@ public class Gugudan {
 				}
 				System.out.println();
 			}
+		}else if(num < 0){
+			System.out.println("구구단 출력이 불가능합니다.");
 		}else {
 			for(int i = 1; i<10; i++) {
 				System.out.println(num+" x "+i+" = "+num*i);
